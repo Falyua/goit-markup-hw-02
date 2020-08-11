@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,217 +7,129 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700;900&family=Roboto:wght@100;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
   </head>
-  <body>
+
+  <body class="page">
     <header>
-      <a class="logo-link" href="https://Falyua.github.io/goit-markup-hw-02/">
-        <span class="logo-2-2"><span class="logo-1-2">Web</span> Studio</span>
-      </a>
-      <ul class="menu-list">
-        <li><a class="studio-link" href="./index.html">Студия</a></li>
-        <li>
-          <a
-            class="portfolio-link"
-            href="./portfolio.html"
-            rel="chapter"
-            target="_self"
-            >Портфолио</a
-          >
-        </li>
+      <nav>
+        <a href="#" class="logo"><span class="logo-accent">Web </span>Studio</a>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="#" class="link current">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
+        </ul>
 
-        <li><a class="contacts-link" href="">Контакты</a></li>
-      </ul>
-
-      <ul>
-        <li class="header-contacts">
-          <a class="tel-link" href="#">+38 099 111 11 11</a>
-        </li>
-        <li class="header-contacts">
-          <a class="mail-link" href="#"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
+        <address class="address">
+          <a href="#" class="link">info@devstudio.com</a>
+          <a href="#" class="link">+38-096 111-11-11</a>
+        </address>
+      </nav>
     </header>
 
-    <main class="menu-portfolio">
-
-      <nav class="portfolio-menu">
-        <ul class="menu-list">
-          <li><button>Все</button></li>
-          <li><button>Веб сайты</button></li>
-          <li><button>Предложения</button></li>
-          <li><button>Дизайн</button></li>
-          <li><button>Маркетинг</button></li>
+    <main>
+      <section class="section">
+        <ul class="button-item list">
+          <li><button type="button" class="button">Все</button></li>
+          <li><button type="button" class="button">Веб-сайты</button></li>
+          <li><button type="button" class="button">Приложения</button></li>
+          <li><button type="button" class="button">Дизайн</button></li>
+          <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
-      </nav>
 
-      <section class="main-container">
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
-            <ul>
-              <li class="portfolio-item">
-                <div class="item-box-1">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-1.jpg"
-                    alt="portfolio-1"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Технокряк</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Веб-сайт</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-2">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-2.jpg"
-                    alt="portfolio-2"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#"
-                      >Постер New Orlean vs Golden Star</a
-                    >
-                  </h3>
-                  <span class="portfolio-subtitle-group">Дизайн</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-3">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-3.jpg"
-                    alt="portfolio-3"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Ресторан Seafood</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Приложение</span>
-                </div>
-              </li>
-            </ul>
+        <ul class="section-item list">
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-1.jpg" alt="главное меню" width="370"/>
+              <h2 class="section-item-title">Технокряк</h2>
+              <p class="section-item-caption">Веб-сайт</p>
+            </a>
           </li>
-          <li class="portfolio-item">
-            <ul>
-              <li class="portfolio-item">
-                <div class="item-box-4">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-4.jpg"
-                    alt="portfolio-4"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Проект Prime</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Маркетинг</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-5">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-5.jpg"
-                    alt="portfolio-5"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Проект Boxes</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Приложение</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-6">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-6.jpg"
-                    alt="portfolio-6"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Inspiration has no Borders</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Веб-сайт</span>
-                </div>
-              </li>
-            </ul>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-2.jpg" alt="баскетбол" width="370"/>
+              <h2 class="section-item-title">
+                Постер New Orlean vs Golden Star</h2>
+              <p class="section-item-caption">Дизайн</p>
+            </a>
           </li>
-          <li class="portfolio-item">
-            <ul>
-              <li class="portfolio-item">
-                <div class="item-box-7">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-7.jpg"
-                    alt="portfolio-7"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">ИзданиеLimited Edition</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Дизайн</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-8">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-8.jpg"
-                    alt="portfolio-8"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Проект LAB</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Маркетинг</span>
-                </div>
-              </li>
-              <li class="portfolio-item">
-                <div class="item-box-9">
-                  <div class="image-abovecover"></div>
-                  <img
-                    src="./img/portfolio-9.jpg"
-                    alt="portfolio-9"
-                    class="item-image"
-                  />
-                  <h3 class="portfolio-subtitle">
-                    <a class="item-link" href="#">Growing Business</a>
-                  </h3>
-                  <span class="portfolio-subtitle-group">Приложение</span>
-                </div>
-              </li>
-            </ul>
+
+          <li>
+            <a href="#" aria-label="" class="link"
+              ><img src="./img/portfolio-3.jpg" alt="емблема рыбного ресторана" width="370"/>
+              <h2 class="section-item-title">Ресторан Seafood</h2>
+              <p class="section-item-caption">Приложение</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-4.jpg" alt="наушники" width="370" />
+              <h2 class="section-item-title">Проект Prime</h2>
+              <p class="section-item-caption">Маркетинг</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-5.jpg" alt="коробки" width="370" />
+              <h2 class="section-item-title">Проект Boxes</h2>
+              <p class="section-item-caption">Приложение</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-5.jpg" alt="карта мира перспективы" width="370"/>
+              <h2 class="section-item-title">Inspiration has no Borders</h2>
+              <p class="section-item-caption">Веб-сайт</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-6.jpg" alt="женский журнал" width="370"/>
+              <h2 class="section-item-title">Издание Limited Edition</h2>
+              <p class="section-item-caption">Дизайн</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link" ><img src="./img/portfolio-7.jpg" alt="бирка" width="370" />
+              <h2 class="section-item-title">Проект LAB</h2>
+              <p class="section-item-caption">Маркетинг</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link"><img src="./img/portfolio-8.jpg" alt="ноутбук" width="370"/>
+              <h2 class="section-item-title">Growing Business</h2>
+              <p class="section-item-caption">Приложение</p>
+            </a>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a class="logo-link" href="https://Falyua.github.io/goit-markup-hw-02/">
-        <span class="logo-2-3"><span class="logo-1-2">Web</span> Studio</span>
-      </a>
-      <address>
-        <p>г.Киев, пр-т Леси Украинки, 26</p>
-        <ul class="contacts-links">
-          <li>
-            <a class="mail-link" href="#"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="tel-link" href="#">+38 099 111 11 11</a>
-          </li>
-        </ul>
+      <a href="#" class="logo"><span class="logo-accent">Web </span>Studio</a>
+      <address class="address">
+        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="#" class="link">info@devstudio.com</a>
+        <a href="#" class="link">+38-096 111-11-11</a>
       </address>
+
+      <b class="join">присоединяйтесь</b>
+      <ul class="socials list">
+        <li>
+          <a href="#" class="socials-link">instagram</a>
+        </li>
+        <li>
+          <a href="#" class="socials-link">twitter</a>
+        </li>
+        <li>
+          <a href="#" class="socials-link">facebook</a>
+        </li>
+        <li>
+          <a href="#" class="socials-link">linkedin</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
